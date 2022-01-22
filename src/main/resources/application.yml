@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: ${URL}
+    username: ${USERNAME}
+    password: ${PASSWORD}
+    driver-class-name: org.postgresql.Driver
+    initialization-mode: always
+path:
+  csvFilepath: /questions.CSV
